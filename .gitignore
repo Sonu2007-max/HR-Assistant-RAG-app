@@ -1,0 +1,17 @@
+# Environment variables and API keys
+.env
+*.env
+
+# Local Chroma Vector DB storage
+db/chroma_store/
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Streamlit temporary config
+.streamlit/
